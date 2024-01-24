@@ -36,15 +36,14 @@ const chai =  () => {
 // chai()
 
 // const addTwo = (num1, num2) => {
-//     return num1 + num2
+//     return num1 + num2  //explicit returned 
 // }
 
 // const addTwo = (num1, num2) =>  num1 + num2
 
-// const addTwo = (num1, num2) => ( num1 + num2 )
+// const addTwo = (num1, num2) => ( num1 + num2 )  //implicit returned 
 
-const addTwo = (num1, num2) => ({username: "hitesh"})
-
+const addTwo = (num1, num2) => ({username: "hitesh"}) //object is returned (implicit returned are always enclosed in parentheses)
 
 console.log(addTwo(3, 4))
 
